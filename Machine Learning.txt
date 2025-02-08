@@ -1,0 +1,29 @@
+Machine learing
+
+DataSet --> if dayaset contains output column -->supervised learing
+Based on op column --> if our op contains continuous values such type of problems are
+said as -Regressiom
+
+op-->categorial y/n 0/1 p/f A B C D --->classification
+
+#Data Preprocessing
+1)Missing values
+ 1)drop the record which are missing values
+2) imputations --> mean/avg/most frequently
+3)Duplicate & low variance Data
+--remove the duplicate record
+-- workplace (Hyderabad)-->remove the type of columns (low variation data)
+4)Incorrect or Irrelevent Data
+--adress->column-->salary--> we can remove 
+--Incorrrect Data
+5)categoria Data -->Mathematical equations -->numerics
+-one hot encoder(more no.of categories)
+Gender --->M?F
+-label encoder-->f->0 m->1,t->2(just 2 categories)
+-gander ->M/F/T
+5) Outliers -->abnormal
+ 6) Feature Scaling
+7)Feature engineering (features-->inputs and response==>outputs)
+1)correalatin -->graph(remove uneccesry coulumns which are not contibute the ouptut)
+8)Validation(splitting the data into )
+--k Field validation
